@@ -1,0 +1,343 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e2c8c8;
+  font-family: sans-serif;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  color: #d098ad;
+  margin: 0;
+  font-size: 60px;
+  
+}
+
+h1:hover {
+  color: #d06e92;
+  transition: 0.3s linear;
+  font-size: 63px;
+ text-shadow: 3px 3px #000;
+}
+
+
+
+
+.animated {
+  animation: fadeInUp 1.3s ease-in-out;
+  text-shadow: #003b46;
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(23px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+section{
+  padding: 7rem;
+background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://hips.hearstapps.com/hmg-prod/images/index-bomber-65a839208f31a.jpg?resize=2048:*) ;
+}
+
+
+
+.sectionanimated2 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://images.squarespace-cdn.com/content/v1/514e2866e4b04c6ad1836cea/1592248574513-AGVZ0WREVJU0ZWPH3RLG/Fa19_NikeJoyRideProdSup_Running_MensHeroColor_000368_HF1+copy.jpg?format=2500w) ;
+}
+
+
+
+.sectionanimated3 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://d1231c29xbpffx.cloudfront.net/store/productimage/433592/image/0450cf720f4bb2b7721c1fe597a112b3.png?Expires=1694414766&Signature=GLs5ANma0ytP5tuZk74v5W1e2TCB8eEhyDkngDz42isc0FeGXrNoztWLCoIh4EwCRj3YyadDL0VZeflhGRIa1RqQrx-sGjWYSZxgFIhljY6ePbV2WOwUN09~6NFTKD2Ua~UzrzaigJthRnYjVSR9L~BV8k1dsPHGUz2y5jRJiFK65ckOBpCDaI3~rwZpwrmea8DKEGLckzIiW4bx0CQSr8aFF8UdUGu5rfNsLzAWgEasYf4uv070E9x~b5x8APoTOYh3A4V6~Qne70vy-u4OWCmsCOY7cF2yAtJLa1bCM48SeA8oJav5cP4nhUbgMmrtmBsB3CPm9-St9pe-nnAPbw__&Key-Pair-Id=APKAIN6COYBF3ZQW7OQQ) ;
+}
+
+
+
+.sectionanimated4 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://sneakernews.com/wp-content/uploads/2023/07/Nike-Dunk-Low-FV0384-001-4.jpg?w=1140) ;
+}
+
+
+.sectionanimated5 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://static.nike.com/a/images/w_1920,c_limit/aaa89f57-78f0-4020-9c21-7f6cad23468a/nike-debuts-sabrina-ionescu-partnership-with-new-apparel-collection-and-footwear.jpg) ;
+}
+
+
+.sectionanimated6 {
+  padding: 7rem;
+  background-color: #fff;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(7, 12, 0, 44);
+  border-radius: 20px;
+  background: #c4dfe6 url(https://wallpapers.com/images/hd/green-shoes-9rbyj8lqlc6txff7.jpg) ;
+}
+
+
+
+
+
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #d54971;
+  color: #fff;
+  border-color: black;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+
+.btn:hover {
+  background-color: #a9143e;
+  transition: 0.6s linear;
+  box-shadow: 3px 4px 6px #8a0d31 ;
+  size: 70px;
+  size-adjust: 0.9;
+}
+
+
+
+.builder:hover {
+  position: absolute;
+  transition: 3s ease-in;
+}
+
+
+.details {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+
+
+
+nav a {
+  position: absolute;
+  left: -87px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+
+nav a:hover {
+  left: 0;
+  background-color: #d1b19c;
+  box-shadow: 3px 5px 10px #cb997e ;
+}
+
+
+.novinka {
+  top: 20px;
+  background-color: #a4133c;
+  position: fixed;
+}
+
+
+.dunky {
+  top: 80px;
+  background-color: #c9184a;
+  position: fixed;
+}
+
+
+.airmax {
+  top: 140px;
+  background-color:#ff4d6d ;
+  position: fixed;
+}
+
+
+.nikebd {
+  top: 200px;
+  background-color:#ff758f;
+position: fixed;
+}
+
+
+
+.joyride {
+  top: 260px;
+  background-color:#fb96a8;
+position: fixed;
+}
+
+
+.byyou {
+  top: 320px;
+  background-color:#ffccd5;
+position: fixed;
+}
+
+
+
+
+.gallery {
+  margin: 1rem;
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  opacity: 0.1;
+  width: 150px;
+  transition: opacity 0.5s ease-out, width 0.5s ease-out, height 0.5s ease-out;
+}
+
+.gallery img:hover {
+  opacity: 1.5;
+  border: 4px solid #bf1e6c;
+  width: 200px;
+  height: 120px;
+  padding: 5px;
+}
+
+
+header {
+ align-items: center;
+}
+
+
+
+footer {
+    background: linear-gradient(#E1ACAC, #CA8787, #A87676);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.footer-section:hover {
+    transform: scale(1.07);
+    border: #a50d6b;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
+    transition: box-shadow 0.3s;
+}
+
+.footer-section input[type="email"]:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    outline: none;
+}
+
+.footer-section button {
+    background: #c37074;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.footer-section button:hover {
+    background: #b85757;
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    border-top: 2.3px solid rgb(65, 8, 37);
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+
